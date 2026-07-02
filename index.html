@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: https://ogp.me/ns#">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>🎉 Happy 3rd Birthday, Injo! 🐾</title>
+  <meta name="description" content="Celebrating Injo's 3rd birthday — the fluffiest, orange-pawed troublemaker in the whole world! 🐶💛" />
+  <meta name="author" content="Injo's Family" />
+  <meta name="keywords" content="Injo, dog birthday, happy birthday, 3rd birthday, golden dog, birthday celebration" />
+
+  <!-- ══ Open Graph (Facebook, Telegram, Line, WhatsApp, Discord) ══ -->
+  <meta property="og:type"        content="website" />
+  <meta property="og:site_name"   content="Injo's Birthday 🐾" />
+  <meta property="og:title"       content="🎉 Happy 3rd Birthday, Injo! 🐾" />
+  <meta property="og:description" content="Today we celebrate the fluffiest, orange-pawed troublemaker in the whole world! 3 years of zoomies, snuggles, and stolen socks. 🧦🐶💛" />
+  <meta property="og:url"         content="https://phirunn891.github.io/Injo_Birthday/" />
+  <meta property="og:image"       content="https://phirunn891.github.io/Injo_Birthday/Photo/photo_2025-07-07_09-16-05.jpg" />
+  <meta property="og:image:width"  content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt"   content="Injo the birthday dog celebrating his 3rd birthday" />
+  <meta property="og:locale"      content="en_US" />
+
+  <!-- ══ Twitter / X Card ══ -->
+  <meta name="twitter:card"        content="summary_large_image" />
+  <meta name="twitter:title"       content="🎉 Happy 3rd Birthday, Injo! 🐾" />
+  <meta name="twitter:description" content="Today we celebrate the fluffiest, orange-pawed troublemaker in the whole world! 3 years of zoomies, snuggles, and stolen socks. 🧦🐶💛" />
+  <meta name="twitter:image"       content="https://phirunn891.github.io/Injo_Birthday/Photo/photo_2025-07-07_09-16-05.jpg" />
+  <meta name="twitter:image:alt"   content="Injo the birthday dog" />
+
+  <!-- ══ Theme color (browser tab / mobile browser bar) ══ -->
+  <meta name="theme-color" content="#F59E0B" />
+
+  <!-- ══ Favicon using a dog emoji ══ -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🐾</text></svg>" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Nunito:wght@400;600;700;800;900&family=Dancing+Script:wght@700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ✨ Confetti Canvas -->
+  <canvas id="confetti-canvas"></canvas>
+
+  <!-- 🎵 Background Music Toggle -->
+  <button id="music-btn" class="music-btn" title="Toggle Music">🎵</button>
+
+  <!-- 🧭 Navigation Dots -->
+  <nav class="nav-dots" id="nav-dots">
+    <a href="#hero" class="dot active" title="Welcome"></a>
+    <a href="#age-reveal" class="dot" title="Age Reveal"></a>
+    <a href="#throwback" class="dot" title="Throwback"></a>
+    <a href="#personality" class="dot" title="Personality"></a>
+    <a href="#favorites" class="dot" title="Favorites"></a>
+    <a href="#squad" class="dot" title="Squad"></a>
+    <a href="#bloopers" class="dot" title="Bloopers"></a>
+    <a href="#growth" class="dot" title="Growth"></a>
+    <a href="#video-reel" class="dot" title="Video Reel"></a>
+    <a href="#wishes" class="dot" title="Wishes"></a>
+    <a href="#gallery" class="dot" title="Gallery"></a>
+    <a href="#closing" class="dot" title="Closing"></a>
+  </nav>
+
+  <!-- ═══════════════════════════════════════
+       SECTION 1 — HERO / WELCOME
+  ═══════════════════════════════════════ -->
+  <section id="hero" class="section hero-section">
+    <div class="paw-prints-bg"></div>
+    <div class="balloons-container">
+      <div class="balloon b1">🎈</div>
+      <div class="balloon b2">🎈</div>
+      <div class="balloon b3">🎈</div>
+      <div class="balloon b4">🎈</div>
+      <div class="balloon b5">🎈</div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-badge">🐾 BIRTHDAY BOY 🐾</div>
+      <h1 class="hero-title">
+        <span class="wave-emoji">🎉</span>
+        <span class="title-gradient">Happy Birthday,<br />Injo!</span>
+        <span class="wave-emoji">🐾</span>
+      </h1>
+      <p class="hero-subtitle">Today we celebrate the fluffiest,<br />orange-pawed troublemaker in the whole world!</p>
+      <div class="hero-photo-frame">
+        <img src="Photo/photo_2025-07-07_09-16-05.jpg" alt="Injo the birthday dog" class="hero-photo" loading="lazy" />
+        <div class="frame-deco frame-deco-tl">🌟</div>
+        <div class="frame-deco frame-deco-tr">🎂</div>
+        <div class="frame-deco frame-deco-bl">🐾</div>
+        <div class="frame-deco frame-deco-br">🎀</div>
+      </div>
+      <div class="hero-sparkles">
+        <span class="sparkle s1">✨</span>
+        <span class="sparkle s2">⭐</span>
+        <span class="sparkle s3">✨</span>
+        <span class="sparkle s4">⭐</span>
+        <span class="sparkle s5">✨</span>
+      </div>
+      <a href="#age-reveal" class="scroll-btn">Scroll to celebrate ↓</a>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════
+       SECTION 2 — AGE REVEAL
+  ═══════════════════════════════════════ -->
+  <section id="age-reveal" class="section age-section">
+    <div class="section-inner">
+      <div class="section-tag">🎂 THE BIG NUMBER</div>
+      <h2 class="section-title glow-text">Injo is Turning <span class="number-3">3</span> Today!</h2>
+      <p class="section-sub">From 2 to 3 — another year of zoomies, snuggles, and stolen socks. 🧦</p>
+      <div class="age-timeline">
+        <div class="timeline-item reveal-left">
+          <div class="tl-icon">🐣</div>
+          <div class="tl-year">Year 1</div>
+          <div class="tl-desc">Baby chaos. Everything is a chew toy.</div>
+        </div>
+        <div class="timeline-arrow">→</div>
+        <div class="timeline-item reveal-center">
+          <div class="tl-icon">🐕</div>
+          <div class="tl-year">Year 2</div>
+          <div class="tl-desc">Still chaotic, but now with signature moves.</div>
+        </div>
+        <div class="timeline-arrow">→</div>
+        <div class="timeline-item reveal-right">
+          <div class="tl-icon">🌟</div>
+          <div class="tl-year">Year 3</div>
+          <div class="tl-desc">Peak fluffiness. Certified good boy.</div>
+        </div>
+      </div>
+      <div class="age-photos-row">
+        <div class="age-photo-card">
+          <img src="Photo/photo_2025-07-07_08-53-52.jpg" alt="Injo year one" loading="lazy" />
+          <span>Year 1 ✨</span>
+        </div>
+        <div class="age-photo-card featured">
+          <img src="Photo/photo_2025-07-07_09-16-07.jpg" alt="Injo turning 3" loading="lazy" />
+          <span>Now 🎉</span>
+        </div>
+        <div class="age-photo-card">
+          <img src="Photo/photo_2025-07-07_08-54-15.jpg" alt="Injo year two" loading="lazy" />
+          <span>Year 2 🐾</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════
+       SECTION 3 — BABY PHOTO THROWBACK
+  ═══════════════════════════════════════ -->
+  <section id="throwback" class="section throwback-section">
+    <div class="section-inner">
+      <div class="section-tag">👶🐶 THROWBACK</div>
+      <h2 class="section-title">Look How Tiny I Was!</h2>
+      <p class="section-sub">From a little fluffball to a full-grown goofball — the glow-up is real. 💫</p>
+      <div class="polaroid-grid">
+        <div class="polaroid tilt-left float-anim">
+          <img src="Photo/photo_2025-07-07_08-53-53.jpg" alt="Baby Injo" loading="lazy" />
+          <p>Such a baby! 💛</p>
+        </div>
+        <div class="polaroid tilt-right float-anim-slow">
+          <img src="Photo/photo_2025-07-07_08-53-54.jpg" alt="Tiny paws" loading="lazy" />
+          <p>Tiny paws 🐾</p>
+        </div>
+        <div class="polaroid tilt-left float-anim-med">
+          <img src="Photo/photo_2025-07-07_08-53-56.jpg" alt="First adventures" loading="lazy" />
+          <p>First adventures!</p>
+        </div>
+        <div class="polaroid tilt-right float-anim">
+          <img src="Photo/photo_2025-07-07_08-53-57.jpg" alt="Baby snuggles" loading="lazy" />
+          <p>Snuggle mode 💤</p>
+        </div>
+        <div class="polaroid tilt-left float-anim-slow">
+          <img src="Photo/photo_2025-07-07_08-53-58.jpg" alt="So small" loading="lazy" />
+          <p>So. Small. 😭</p>
+        </div>
+        <div class="polaroid tilt-right float-anim-med">
+          <img src="Photo/photo_2025-07-07_08-53-59.jpg" alt="Pupper eyes" loading="lazy" />
+          <p>Those eyes! 🥺</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════
+       SECTION 4 — PERSONALITY SPOTLIGHT
+  ═══════════════════════════════════════ -->
+  <section id="personality" class="section personality-section">
+    <div class="section-inner">
+      <div class="section-tag">😜 PERSONALITY</div>
+      <h2 class="section-title">Meet the Chaos Coordinator</h2>
+      <p class="section-sub">Professional nap-taker. Amateur guard dog. Full-time cutie.</p>
+      <div class="personality-grid">
+        <div class="trait-card">
+          <div class="trait-emoji">😴</div>
+          <div class="trait-title">Pro Napper</div>
+          <div class="trait-desc">Can fall asleep anywhere, anytime — especially on your keyboard.</div>
+          <img src="Photo/photo_2025-07-07_08-54-00.jpg" alt="Injo napping" class="trait-photo" loading="lazy" />
+        </div>
+        <div class="trait-card">
+          <div class="trait-emoji">🔊</div>
+          <div class="trait-title">Alarm System</div>
+          <div class="trait-desc">Barks at strangers, ghosts, and suspicious-looking pillows.</div>
+          <img src="Photo/photo_2025-07-07_08-54-01.jpg" alt="Injo alert" class="trait-photo" loading="lazy" />
+        </div>
+        <div class="trait-card">
+          <div class="trait-emoji">🏃</div>
+          <div class="trait-title">Zoom King</div>
+          <div class="trait-desc">Reaches maximum zoomie velocity at exactly 3 AM.</div>
+          <img src="Photo/photo_2025-07-07_08-54-02.jpg" alt="Injo zooming" class="trait-photo" loading="lazy" />
+        </div>
+        <div class="trait-card">
+          <div class="trait-emoji">🥹</div>
+          <div class="trait-title">Cuddle Expert</div>
+          <div class="trait-desc">Master of the puppy-eye stare that melts every heart.</div>
+          <img src="Photo/photo_2025-07-07_08-54-03.jpg" alt="Injo cuddling" class="trait-photo" loading="lazy" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════
+       SECTION 5 — FAVORITE THINGS
+  ═══════════════════════════════════════ -->
+  <section id="favorites" class="section favorites-section">
+    <div class="bubbles-bg">
+      <div class="bubble"></div><div class="bubble"></div><div class="bubble"></div>
+      <div class="bubble"></div><div class="bubble"></div><div class="bubble"></div>
+    </div>
+    <div class="section-inner">
+      <div class="section-tag">🦴 FAVORITES</div>
+      <h2 class="section-title">Injo's Favorite Things</h2>
+      <div class="favorites-list">
+        <div class="fav-item">
+          <div class="fav-icon-wrap">🍖</div>
+          <div class="fav-label">Treats</div>
+          <div class="fav-bar"><div class="fav-fill" style="--pct:98%"></div></div>
+          <span class="fav-pct">98%</span>
+        </div>
+        <div class="fav-item">
+          <div class="fav-icon-wrap">🖐️</div>
+          <div class="fav-label">Belly Rubs</div>
+          <div class="fav-bar"><div class="fav-fill" style="--pct:100%"></div></div>
+          <span class="fav-pct">100%</span>
+        </div>
+        <div class="fav-item">
+          <div class="fav-icon-wrap">🧸</div>
+          <div class="fav-label">Squeaky Toys</div>
+          <div class="fav-bar"><div class="fav-fill" style="--pct:95%"></div></div>
+          <span class="fav-pct">95%</span>
+        </div>
+        <div class="fav-item">
+          <div class="fav-icon-wrap">☀️</div>
+          <div class="fav-label">Sunny Naps</div>
+          <div class="fav-bar"><div class="fav-fill" style="--pct:92%"></div></div>
+          <span class="fav-pct">92%</span>
+        </div>
+        <div class="fav-item">
+          <div class="fav-icon-wrap">🧦</div>
+          <div class="fav-label">Stolen Socks</div>
+          <div class="fav-bar"><div class="fav-fill" style="--pct:87%"></div></div>
+          <span class="fav-pct">87%</span>
+        </div>
+        <div class="fav-item">
+          <div class="fav-icon-wrap">💨</div>
+          <div class="fav-label">Zoomies</div>
+          <div class="fav-bar"><div class="fav-fill" style="--pct:99%"></div></div>
+          <span class="fav-pct">99%</span>
+        </div>
+      </div>
+      <div class="fav-photos-row">
+        <img src="Photo/photo_2025-07-07_08-54-05.jpg" alt="Injo treats" loading="lazy" class="fav-photo" />
+        <img src="Photo/photo_2025-07-07_08-54-06.jpg" alt="Injo happy" loading="lazy" class="fav-photo" />
+        <img src="Photo/photo_2025-07-07_08-54-08.jpg" alt="Injo playing" loading="lazy" class="fav-photo" />
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════
+       SECTION 6 — BEST FRIENDS / SQUAD
+  ═══════════════════════════════════════ -->
+  <section id="squad" class="section squad-section">
+    <div class="section-inner">
+      <div class="section-tag">🐕 SQUAD GOALS</div>
+      <h2 class="section-title">Best Friends Forever</h2>
+      <p class="section-sub">Every good boy needs his crew — here's who makes tail-wagging days even better.</p>
+      <div class="squad-carousel" id="squadCarousel">
+        <div class="squad-slide active">
+          <img src="Photo/photo_2025-07-07_09-12-41.jpg" alt="Squad 1" loading="lazy" />
+        </div>
+        <div class="squad-slide">
+          <img src="Photo/photo_2025-07-07_09-12-43.jpg" alt="Squad 2" loading="lazy" />
+        </div>
+        <div class="squad-slide">
+          <img src="Photo/photo_2025-07-07_09-12-44.jpg" alt="Squad 3" loading="lazy" />
+        </div>
+        <div class="squad-slide">
+          <img src="Photo/photo_2025-07-07_09-12-51.jpg" alt="Squad 4" loading="lazy" />
+        </div>
+        <div class="squad-slide">
+          <img src="Photo/photo_2025-07-07_09-12-52.jpg" alt="Squad 5" loading="lazy" />
+        </div>
+        <div class="squad-slide">
+          <img src="Photo/photo_2025-07-07_09-12-54.jpg" alt="Squad 6" loading="lazy" />
+        </div>
+        <button class="carousel-btn prev" onclick="changeSquad(-1)">‹</button>
+        <button class="carousel-btn next" onclick="changeSquad(1)">›</button>
+      </div>
+      <div class="squad-dots" id="squadDots">
+        <span class="sdot active"></span>
+        <span class="sdot"></span>
+        <span class="sdot"></span>
+        <span class="sdot"></span>
+        <span class="sdot"></span>
+        <span class="sdot"></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════
+       SECTION 7 — SILLY MOMENTS / BLOOPERS
+  ═══════════════════════════════════════ -->
+  <section id="bloopers" class="section bloopers-section">
+    <div class="section-inner">
+      <div class="section-tag">😂 BLOOPER REEL</div>
+      <h2 class="section-title">The Silly Side of Injo</h2>
+      <p class="section-sub">Because Injo never met a camera he didn't want to headbutt. 📸</p>
+      <div class="masonry-grid">
+        <div class="masonry-item">
+          <img src="Photo/photo_2025-07-07_08-54-12.jpg" alt="Silly 1" loading="lazy" />
+          <div class="masonry-overlay">😂 Classic Injo</div>
+        </div>
+        <div class="masonry-item tall">
+          <img src="Photo/photo_2025-07-07_08-54-13.jpg" alt="Silly 2" loading="lazy" />
+          <div class="masonry-overlay">🤪 What even</div>
+        </div>
+        <div class="masonry-item">
+          <img src="Photo/photo_2025-07-07_08-54-14.jpg" alt="Silly 3" loading="lazy" />
+          <div class="masonry-overlay">😜 Derp mode</div>
+        </div>
+        <div class="masonry-item tall">
+          <img src="Photo/photo_2025-07-07_08-54-16.jpg" alt="Silly 4" loading="lazy" />
+          <div class="masonry-overlay">🙃 Upsidedown</div>
+        </div>
+        <div class="masonry-item">
+          <img src="Photo/photo_2025-07-07_08-54-17.jpg" alt="Silly 5" loading="lazy" />
+          <div class="masonry-overlay">😹 Mood</div>
+        </div>
+        <div class="masonry-item">
+          <img src="Photo/photo_2025-07-07_08-54-18.jpg" alt="Silly 6" loading="lazy" />
+          <div class="masonry-overlay">🤣 Caught!</div>
+        </div>
+        <div class="masonry-item tall">
+          <img src="Photo/photo_2025-07-07_08-54-20.jpg" alt="Silly 7" loading="lazy" />
+          <div class="masonry-overlay">🎭 Drama queen</div>
+        </div>
+        <div class="masonry-item">
+          <img src="Photo/photo_2025-07-07_08-54-22.jpg" alt="Silly 8" loading="lazy" />
+          <div class="masonry-overlay">💀 I can't</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════
+       SECTION 8 — GROWTH JOURNEY
+  ═══════════════════════════════════════ -->
+  <section id="growth" class="section growth-section">
+    <div class="section-inner">
+      <div class="section-tag">🌱 GROWTH JOURNEY</div>
+      <h2 class="section-title">Watch Me Grow</h2>
+      <p class="section-sub">From wobbly puppy paws to confident struts — 3 years of adventure and counting.</p>
+      <div class="growth-strip">
+        <div class="growth-card">
+          <img src="Photo/photo_2025-07-07_08-54-24.jpg" alt="Grow 1" loading="lazy" />
+          <div class="growth-label">Day 1 🐾</div>
+        </div>
+        <div class="growth-connector">🐾</div>
+        <div class="growth-card">
+          <img src="Photo/photo_2025-07-07_08-54-25.jpg" alt="Grow 2" loading="lazy" />
+          <div class="growth-label">Month 3 🌱</div>
+        </div>
+        <div class="growth-connector">🐾</div>
+        <div class="growth-card">
+          <img src="Photo/photo_2025-07-07_08-54-28.jpg" alt="Grow 3" loading="lazy" />
+          <div class="growth-label">6 Months 🌟</div>
+        </div>
+        <div class="growth-connector">🐾</div>
+        <div class="growth-card">
+          <img src="Photo/photo_2025-07-07_08-54-30.jpg" alt="Grow 4" loading="lazy" />
+          <div class="growth-label">Year 1 🎂</div>
+        </div>
+        <div class="growth-connector">🐾</div>
+        <div class="growth-card">
+          <img src="Photo/photo_2025-07-07_08-54-35.jpg" alt="Grow 5" loading="lazy" />
+          <div class="growth-label">Year 2 🚀</div>
+        </div>
+        <div class="growth-connector">🐾</div>
+        <div class="growth-card highlight-card">
+          <img src="Photo/photo_2025-07-07_09-16-06.jpg" alt="Grow 6 - now" loading="lazy" />
+          <div class="growth-label">Year 3 👑</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════
+       SECTION 9 — VIDEO REEL
+  ═══════════════════════════════════════ -->
+  <section id="video-reel" class="section video-section">
+    <div class="section-inner">
+      <div class="section-tag">🎬 VIDEO REEL</div>
+      <h2 class="section-title">Injo in Motion</h2>
+      <p class="section-sub">Nothing beats seeing this legend in action! 🎥</p>
+      <div class="video-grid">
+        <div class="video-card featured-video">
+          <video controls preload="metadata" poster="Photo/photo_2025-07-07_09-16-08.jpg">
+            <source src="Video/IMG_1281.MP4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+          <div class="video-label">🎬 The Main Event</div>
+        </div>
+        <div class="video-card">
+          <video controls preload="metadata">
+            <source src="Video/IMG_5807.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+          <div class="video-label">🐾 Zoomies Compilation</div>
+        </div>
+        <div class="video-card">
+          <video controls preload="metadata">
+            <source src="Video/IMG_1061.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+          <div class="video-label">😂 Caught in the Act</div>
+        </div>
+        <div class="video-card">
+          <video controls preload="metadata">
+            <source src="Video/IMG_1955.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+          <div class="video-label">🌟 Star Moment</div>
+        </div>
+        <div class="video-card">
+          <video controls preload="metadata">
+            <source src="Video/IMG_2209.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+          <div class="video-label">🏃 Let's Gooo!</div>
+        </div>
+        <div class="video-card">
+          <video controls preload="metadata">
+            <source src="Video/IMG_3626.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+          <div class="video-label">💛 Sweet Moments</div>
+        </div>
+        <div class="video-card">
+          <video controls preload="metadata">
+            <source src="Video/IMG_3683.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+          <div class="video-label">🎉 Party Time!</div>
+        </div>
+        <div class="video-card">
+          <video controls preload="metadata">
+            <source src="Video/IMG_7209.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+          <div class="video-label">🐶 Just Being Injo</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════
+       SECTION 10 — BIRTHDAY WISHES
+  ═══════════════════════════════════════ -->
+  <section id="wishes" class="section wishes-section">
+    <div class="stars-bg">
+      <span class="star">⭐</span><span class="star">🌟</span><span class="star">✨</span>
+      <span class="star">⭐</span><span class="star">🌟</span><span class="star">✨</span>
+      <span class="star">⭐</span><span class="star">🌟</span>
+    </div>
+    <div class="section-inner">
+      <div class="section-tag">💌 WISHES</div>
+      <h2 class="section-title">Wishes for Injo</h2>
+      <div class="wish-cards-container">
+        <div class="wish-card" style="--delay:0s">
+          <div class="wish-icon">🍖</div>
+          <p>May your treat jar never be empty and every snack be extra crispy!</p>
+        </div>
+        <div class="wish-card" style="--delay:0.1s">
+          <div class="wish-icon">🖐️</div>
+          <p>Endless belly rubs from everyone who meets your fluffy belly!</p>
+        </div>
+        <div class="wish-card" style="--delay:0.2s">
+          <div class="wish-icon">☀️</div>
+          <p>May every nap be in the warmest, sunniest spot in the house!</p>
+        </div>
+        <div class="wish-card" style="--delay:0.3s">
+          <div class="wish-icon">🏃</div>
+          <p>All the zoomies your little legs can handle — and then some!</p>
+        </div>
+        <div class="wish-card" style="--delay:0.4s">
+          <div class="wish-icon">💛</div>
+          <p>Unconditional love, every single day, forever and always!</p>
+        </div>
+        <div class="wish-card" style="--delay:0.5s">
+          <div class="wish-icon">🎂</div>
+          <p>A birthday cake that's 100% dog-safe and 1000% delicious!</p>
+        </div>
+      </div>
+      <div class="big-wish-photo">
+        <img src="Photo/photo_2025-07-07_09-16-09.jpg" alt="Injo wishes" loading="lazy" />
+        <div class="wish-quote">"To the world you are a dog, but to us you are the world." 🐾</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════
+       SECTION 11 — FULL PHOTO GALLERY
+  ═══════════════════════════════════════ -->
+  <section id="gallery" class="section gallery-section">
+    <div class="section-inner">
+      <div class="section-tag">📸 FULL GALLERY</div>
+      <h2 class="section-title">Every Moment is Priceless</h2>
+      <p class="section-sub">A lifetime of memories — one adorable photo at a time.</p>
+      <div class="gallery-filter">
+        <button class="filter-btn active" onclick="filterGallery('all', this)">All ✨</button>
+        <button class="filter-btn" onclick="filterGallery('outdoor', this)">Outdoors 🌿</button>
+        <button class="filter-btn" onclick="filterGallery('indoor', this)">Indoors 🏠</button>
+        <button class="filter-btn" onclick="filterGallery('closeup', this)">Close-ups 🥰</button>
+      </div>
+      <div class="gallery-grid" id="galleryGrid">
+        <!-- Photos injected by JS -->
+      </div>
+      <button class="load-more-btn" id="loadMoreBtn" onclick="loadMorePhotos()">Load More Photos 🐾</button>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════
+       SECTION 12 — CLOSING / THANK YOU
+  ═══════════════════════════════════════ -->
+  <section id="closing" class="section closing-section">
+    <div class="closing-confetti"></div>
+    <div class="section-inner closing-inner">
+      <div class="closing-paws">🐾🐾🐾</div>
+      <h2 class="closing-title">Thanks for Celebrating With Us!</h2>
+      <p class="closing-subtitle">Injo says <strong>woof</strong> 🐶<br /><em>(translation: thank you for being part of the pack)</em></p>
+      <div class="closing-photo-frame">
+        <img src="Photo/photo_2025-07-07_09-16-10.jpg" alt="Injo thank you" loading="lazy" class="closing-photo" />
+      </div>
+      <div class="closing-hearts">
+        <span class="heart h1">💛</span>
+        <span class="heart h2">🧡</span>
+        <span class="heart h3">💛</span>
+        <span class="heart h4">🧡</span>
+        <span class="heart h5">💛</span>
+      </div>
+      <p class="closing-message">Happy 3rd Birthday, Injo! 🎂🐾<br />We love you more than words can say — but you already know that, don't you? 🥺💛</p>
+      <div class="closing-footer">Made with 💛 for the best dog in the world · 2026</div>
+    </div>
+  </section>
+
+  <!-- Lightbox -->
+  <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+    <div class="lightbox-content" onclick="event.stopPropagation()">
+      <img id="lightbox-img" src="" alt="Full photo" />
+      <button class="lightbox-close" onclick="closeLightbox()">✕</button>
+      <button class="lightbox-prev" onclick="lightboxNav(-1)">‹</button>
+      <button class="lightbox-next" onclick="lightboxNav(1)">›</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
